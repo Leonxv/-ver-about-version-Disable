@@ -1,5 +1,15 @@
-name: Version disable
-author: Aleondev
-api: 3.0.0
+name: Version false
+api: [3.0.0,4.0.0]
+version: 1.0.0
 main: command\Main
-version: 1
+load: POSTWORLD
+author: Aleondev
+commands:
+  cmd:
+    description: "§ecmd"
+    usage: "/cmd"
+    permission: cmd.com
+permissions:
+  cmd.com:
+    description: "§ecmd"
+    default: op
