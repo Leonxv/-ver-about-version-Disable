@@ -1,0 +1,5 @@
+name: Version disable
+author: Aleondev
+api: 3.0.0
+main: command\Main
+version: 1
